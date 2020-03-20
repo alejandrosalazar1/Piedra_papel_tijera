@@ -43,4 +43,12 @@ if((opcion==1 and opcion_computadora==2) or
 (opcion==2 and opcion_computadora ==1)):
   print("Papel gana =>", end ="")
   resultado = "Papel"
-    
+
+elif ((opcion==1 and opcion_computadora  ==3) or
+  (opcion==3 and opcion_computadora ==1)):
+  print("Piedra gana =>", end = "")
+  resultado = "Piedra"
+
+else:
+  print("Tijera gana =>", end = "")
+  resultado = "Tijeras"
