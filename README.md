@@ -28,3 +28,11 @@ print("\n Ahora es el turno de la computadora........")
 opcion_computadora= random.randint(1,3)
 while opcion_computadora==opcion:
   opcion_computadora = random.randint(1,3)
+
+if opcion_computadora==1:
+  nombre_opcion_computadora='Piedra'
+elif opcion_computadora==2:
+  nombre_opcion_computadora='Papel'
+  else:
+    nombre_opcion_computadora='Tijera'
+    
