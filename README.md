@@ -58,3 +58,11 @@ if resultado==nombre_opcion:
 
 else:
   print ("******** La computadora gano *********")
+
+print("¿Desea jugar otra vez? (SI/NO)")
+res= input()
+
+if res== 'NO' or res== 'no' or res== 'No':
+  break
+
+print("Muchas gracias por jugar!")
