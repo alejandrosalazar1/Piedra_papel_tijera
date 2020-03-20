@@ -33,22 +33,28 @@ if opcion_computadora==1:
   nombre_opcion_computadora='Piedra'
 elif opcion_computadora==2:
   nombre_opcion_computadora='Papel'
-  else:
+else:
     nombre_opcion_computadora='Tijera'
 
-print("La computadora escogio:" + nombre_opcion_computadora)
-print(nombre_opcion + "VRS" + nombre_opcion_computadora)
+print("La computadora escogio: " + nombre_opcion_computadora)
+print(nombre_opcion + " VRS " + nombre_opcion_computadora)
 
 if((opcion==1 and opcion_computadora==2) or
 (opcion==2 and opcion_computadora ==1)):
-  print("Papel gana =>", end ="")
+  print("Papel gana => \n", end ="")
   resultado = "Papel"
 
 elif ((opcion==1 and opcion_computadora  ==3) or
   (opcion==3 and opcion_computadora ==1)):
-  print("Piedra gana =>", end = "")
+  print("Piedra gana => \n", end = "")
   resultado = "Piedra"
 
 else:
-  print("Tijera gana =>", end = "")
+  print("Tijera gana => \n", end = "")
   resultado = "Tijeras"
+
+if resultado==nombre_opcion:
+  print("********* El usuario gana *********")
+
+else:
+  print ("******** La computadora gano **********")
