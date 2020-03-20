@@ -21,3 +21,10 @@ elif opcion==2:
   nombre_opcion= 'Papel'
 else:
   nombre_opcion= 'Tijera'
+
+print("El usuario escogio:" + nombre_opcion)
+print("\n Ahora es el turno de la computadora........")
+
+opcion_computadora= random.randint(1,3)
+while opcion_computadora==opcion:
+  opcion_computadora = random.randint(1,3)
