@@ -10,3 +10,14 @@ print("Seleccione una opcion -\n"
 "2. Papel = _\n"
 "3. Tijera = X \n")
 
+opcion = int(input("Escoga una opcion: "))
+
+while opcion >3 or opcion<1:
+  opcion = int(input("Ingrese opcion valida:"))
+
+if opcion==1:
+  nombre_opcion = 'Piedra'
+elif opcion==2:
+  nombre_opcion= 'Papel'
+else:
+  nombre_opcion= 'Tijera'
