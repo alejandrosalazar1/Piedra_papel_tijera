@@ -1,9 +1,9 @@
 import random
 
 print("Reglas del juego: \n"
-"Piedra le gana a tijera \n"
-"Papel le gana a piedra \n"
-"Tijera le gana al papel \n")
+" La piedra le gana a la tijera \n"
+" El papel le gana a la piedra \n"
+" La tijera le gana al papel \n")
 
 print("Seleccione una opcion -\n"
 "1. Piedra = 0\n"
@@ -57,4 +57,4 @@ if resultado==nombre_opcion:
   print("********* El usuario gana *********")
 
 else:
-  print ("******** La computadora gano **********")
+  print ("******** La computadora gano *********")
