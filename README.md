@@ -35,4 +35,12 @@ elif opcion_computadora==2:
   nombre_opcion_computadora='Papel'
   else:
     nombre_opcion_computadora='Tijera'
+
+print("La computadora escogio:" + nombre_opcion_computadora)
+print(nombre_opcion + "VRS" + nombre_opcion_computadora)
+
+if((opcion==1 and opcion_computadora==2) or
+(opcion==2 and opcion_computadora ==1)):
+  print("Papel gana =>", end ="")
+  resultado = "Papel"
     
