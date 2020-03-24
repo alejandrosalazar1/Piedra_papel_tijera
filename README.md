@@ -15,6 +15,14 @@ opcion = int(input("Escoga una opcion: "))
 while opcion >3 or opcion<1:
   opcion = int(input("Ingrese opcion valida:"))
 
+def translate(simbolo):
+    if simbolo =="1":
+        return 0
+    if simbolo == "2":
+        return _
+    if simbolo == "3":
+        return X
+
 if opcion==1:
   nombre_opcion = 'Piedra'
 elif opcion==2:
@@ -58,4 +66,5 @@ if resultado==nombre_opcion:
 
 else:
   print ("******** La computadora gano *********")
+
 
